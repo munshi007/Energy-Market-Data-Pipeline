@@ -1,0 +1,7 @@
+pandas>=1.5.0
+numpy>=1.21.0
+pyarrow>=5.0.0
+matplotlib>=3.5.0
+seaborn>=0.11.0
+apache-airflow>=2.5.0
+apache-airflow-providers-postgres>=5.0.0
