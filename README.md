@@ -2,7 +2,7 @@
 
 A comprehensive data engineering project that processes energy market bid data using Apache Airflow, featuring market clearing simulation, renewable energy impact analysis, and production-ready monitoring.
 
-## 🎯 Project Overview
+## Project Overview
 
 This project demonstrates advanced data engineering concepts through a real-world energy trading scenario. It processes 3 days of energy market data (~3,000 records) and provides insights into market dynamics, renewable energy impacts, and trading optimization.
 
@@ -14,7 +14,7 @@ This project demonstrates advanced data engineering concepts through a real-worl
 - **Production-Ready**: Docker containerization, monitoring, and comprehensive logging
 - **Financial Analytics**: VWAP calculations, market spread analysis, and efficiency metrics
 
-## 🚀 What You'll Learn
+## What You'll Learn
 
 By exploring this project, you'll gain hands-on experience with:
 
@@ -36,7 +36,7 @@ By exploring this project, you'll gain hands-on experience with:
 - **Documentation**: Professional code documentation and setup guides
 - **Testing**: Data validation and quality assurance
 
-## 📊 Project Results
+## Project Results
 
 The pipeline successfully processes energy market data and generates:
 
@@ -45,7 +45,7 @@ The pipeline successfully processes energy market data and generates:
 - **Data Quality**: 98%+ data integrity with automated validation
 - **Performance**: 2-3 minute end-to-end execution time
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 - **Orchestration**: Apache Airflow 2.5+
 - **Data Processing**: Pandas, NumPy
@@ -54,7 +54,7 @@ The pipeline successfully processes energy market data and generates:
 - **Language**: Python 3.8+
 - **Monitoring**: Custom health checks and alerting
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 energy-market-pipeline/
@@ -70,7 +70,7 @@ energy-market-pipeline/
 └── docs/                                  # Documentation and guides
 ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Docker Desktop (4GB+ RAM recommended)
@@ -126,7 +126,7 @@ After 2-3 minutes, you'll have:
 - **Policy Insight**: €3.99/MWh economic benefit from renewables
 - **Investment ROI**: Clear quantification for renewable projects
 
-## 🎓 Learning Path & Tutorials
+## Learning Path & Tutorials
 
 ### Beginner Level
 1. **Start Here**: Follow the Quick Start guide
@@ -146,7 +146,7 @@ After 2-3 minutes, you'll have:
 3. **Scaling**: Deploy on Kubernetes or cloud platforms
 4. **Optimization**: Implement parallel processing
 
-## 🔧 Customization Guide
+## Customization Guide
 
 ### Modify Renewable Scenarios
 ```python
@@ -170,7 +170,7 @@ ADDITIONAL_DATA_PATH = '/opt/airflow/dags/weather_data.csv'
 # Integrate in validation and cleaning tasks
 ```
 
-## 📚 Key Concepts Explained
+## Key Concepts Explained
 
 ### Market Clearing Algorithm
 The pipeline implements a sophisticated market clearing mechanism:
@@ -193,7 +193,7 @@ Critical for:
 - **Price Effect**: Increased supply typically reduces market prices
 - **Policy Value**: Quantifies economic benefits of renewable investments
 
-## 🔍 Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 1. **Services won't start**: Ensure Docker has 4GB+ RAM
@@ -206,7 +206,7 @@ Critical for:
 - **Parallelism**: Adjust Airflow executor settings
 - **Storage**: Use SSD for better I/O performance
 
-## 🤝 Contributing
+## Contributing
 
 This project welcomes contributions! Areas for enhancement:
 
@@ -228,28 +228,21 @@ This project welcomes contributions! Areas for enhancement:
 - [ ] Monitoring integration (Prometheus/Grafana)
 - [ ] Security hardening
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Energy market data structure inspired by European power exchanges
 - Airflow best practices from the Apache Airflow community
 - Financial calculations based on industry-standard methodologies
 
-## 📞 Contact
 
-For questions, suggestions, or collaboration opportunities:
-- **GitHub Issues**: Use for bug reports and feature requests
-- **Discussions**: Share your implementations and improvements
-- **LinkedIn**: [Your LinkedIn Profile]
 
----
+** If this project helped you learn data engineering concepts, please give it a star!**
 
-**⭐ If this project helped you learn data engineering concepts, please give it a star!**
-
-## 🎯 Next Steps
+## Next Steps
 
 1. **Fork this repository** at https://github.com/munshi007/Energy-Market-Data-Pipeline
 2. **Customize the analysis** for your specific use case
